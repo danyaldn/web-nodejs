@@ -1,0 +1,25 @@
+{
+  "name": "tamrin-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Product.js",
+  "scripts": {
+    "start": "set DEBUG=app:main && nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "config": "^3.3.11",
+    "debug": "^4.3.4",
+    "express": "^4.19.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.3.3",
+    "mongoose-timestamp": "^0.6.0",
+    "nodemon": "^3.1.0",
+    "timestamp": "^0.0.1"
+  }
+}
